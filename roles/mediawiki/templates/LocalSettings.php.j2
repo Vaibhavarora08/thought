@@ -19,7 +19,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 ## Uncomment this to disable output compression
 # $wgDisableOutputCompression = true;
 
-$wgSitename = "MyWorks";
+$wgSitename = "Vaibhav";
 
 ## The URL base path to the directory containing the wiki;
 ## defaults for all runtime URL paths are based off of this.
@@ -29,7 +29,7 @@ $wgSitename = "MyWorks";
 $wgScriptPath = "/mediawiki";
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer = "{{ lb_url }}";
+$wgServer = "http://52.12.164.224";
 
 ## The URL path to static resources (images, scripts, etc.)
 $wgResourceBasePath = $wgScriptPath;
@@ -43,8 +43,8 @@ $wgLogo = "$wgResourceBasePath/resources/assets/wiki.png";
 $wgEnableEmail = true;
 $wgEnableUserEmail = true; # UPO
 
-$wgEmergencyContact = "apache@{{ lb_url }}";
-$wgPasswordSender = "apache@{{ lb_url }}";
+$wgEmergencyContact = "apache@52.12.164.224";
+$wgPasswordSender = "apache@52.12.164.224";
 
 $wgEnotifUserTalk = false; # UPO
 $wgEnotifWatchlist = false; # UPO
@@ -54,8 +54,8 @@ $wgEmailAuthentication = true;
 $wgDBtype = "mysql";
 $wgDBserver = "{{ database_ip }}";
 $wgDBname = "my_wiki";
-$wgDBuser = "mediawiki_user";
-$wgDBpassword = "root";
+$wgDBuser = "my";
+$wgDBpassword = "ram";
 
 # MySQL specific settings
 $wgDBprefix = "";
@@ -92,16 +92,16 @@ $wgShellLocale = "C.UTF-8";
 #$wgCacheDirectory = "$IP/cache";
 
 # Site language code, should be one of the list in ./languages/data/Names.php
-$wgLanguageCode = "en";
+$wgLanguageCode = "en-gb";
 
-$wgSecretKey = "43e7fc9b3eb774a335f2ae9955d5c32b449d8ea98642bc03e12808a070b6d402";
+$wgSecretKey = "370c787710bffe76b3dc4ad70e3ff65ca4e0ecbb56124ab3c4af6621492b4c12";
 
 # Changing this will log out all existing sessions.
 $wgAuthenticationTokenVersion = "1";
 
 # Site upgrade key. Must be set to a string (default provided) to turn on the
 # web installer while LocalSettings.php is in place
-$wgUpgradeKey = "3bd5684af68f8740";
+$wgUpgradeKey = "40f040e2b15755a4";
 
 ## For attaching licensing metadata to pages, and displaying an
 ## appropriate copyright notice / icon. GNU Free Documentation
@@ -127,4 +127,5 @@ wfLoadSkin( 'Vector' );
 
 # End of automatically generated settings.
 # Add more configuration options below.
+
 
