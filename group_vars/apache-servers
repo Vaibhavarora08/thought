@@ -19,3 +19,4 @@ apt_packages:
   - php-gd
   - php-cli
   - php-curl
+  - mysql-client-core-5.7
